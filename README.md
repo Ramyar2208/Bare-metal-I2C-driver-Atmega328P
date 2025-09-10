@@ -9,7 +9,7 @@ When using TWI, normally the SDA and SCL pins are a open drain circuit hence we 
 digitalWrite(SDA, HIGH);
 digitalWrite(SCL, HIGH);
 
-**Bit rate calculation: ** 
+**Bit rate calculation:**
 
 SCL frequency = CPU clock frequency of Nano / 16 + 2(TWBR) x Prescale value
 
