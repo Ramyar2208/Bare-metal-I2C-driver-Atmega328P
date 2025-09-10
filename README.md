@@ -1,8 +1,9 @@
 # Bare-metal-I2C-driver-for-LCD - Atmega328P
 Displaying Temperature in LCD from sensor using I2C driver(TWI interface) | ATMega328P - bare metal programming
+
 Blog post: https://embedded-electronicsproject.blogspot.com/2023/11/displaying-temperature-from-sensor-in.html
 
-**Programming:**(programmed in KEIL IDE)
+**Programming:** (programmed in KEIL IDE)
 
 There is a dedicated I2C pin available in Arduino (Nano - A4, A5) which are used by respective internal I2C registers for performing I2C protocol (TWI). User has to configure and provide data like clock frequency, slave address, data to transfer, etc. to use the feature.
 
