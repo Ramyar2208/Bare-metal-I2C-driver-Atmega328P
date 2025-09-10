@@ -2,7 +2,8 @@
 Displaying Temperature in LCD from sensor using I2C driver(TWI interface) | ATMega328P - bare metal programming
 Blog post: https://embedded-electronicsproject.blogspot.com/2023/11/displaying-temperature-from-sensor-in.html
 
-**Programming:**
+**Programming:**(programmed in KEIL IDE)
+
 There is a dedicated I2C pin available in Arduino (Nano - A4, A5) which are used by respective internal I2C registers for performing I2C protocol (TWI). User has to configure and provide data like clock frequency, slave address, data to transfer, etc. to use the feature.
 
 When using TWI, normally the SDA and SCL pins are a open drain circuit hence we connect resistors between the data lines and 5V. Instead internal built in resistors can also be used by writing '1' to the pins:
